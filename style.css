@@ -1,1 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./Asset/IMG/code-fond.jpg);
+  background-size: cover;
+}
+.Background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Background::before {
+  content: "";
+  background-image: url(./Asset/IMG/code-fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.65;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  position: relative;
+  /* Le font Size c'est pour la taile de la police et on utilise le REM comme uniter de mesure 1 REM = 16px et cela s'adapte mieux en règle générale ^^   */
+
+  text-shadow: 3px 3px 6px #14c7ca;
+  color: rgb(12, 12, 12);
+  text-decoration: underline;
+}
+.txt {
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  position: relative;
+  color: rgb(6, 6, 6);
+  text-shadow: 3px 3px 6px #14c7ca;
+}

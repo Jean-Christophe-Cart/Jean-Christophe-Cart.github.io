@@ -12,6 +12,7 @@ body {
 header {
   height: 100vh;
   width: 100vw;
+
   background-image: url(./Asset/IMG/code-fond.jpg);
   background-size: cover;
 }
@@ -30,8 +31,10 @@ header {
 }
 
 .navbar .logo {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
+  color: #040404;
+  text-shadow: 0px 0px 12px rgb(0, 255, 255);
 }
 
 .navbar .nav-links ul {
@@ -43,8 +46,11 @@ header {
 }
 
 .navbar .nav-links ul li.active a {
-  color: rgb(17, 249, 222);
+  color: rgb(255, 255, 255);
   font-weight: 600;
+  display: flex;
+  width: 15rem;
+  justify-content: center;
 }
 .navbar .menu-bt {
   display: none;
@@ -95,4 +101,33 @@ header {
 .navbar .nav-links ul li {
   margin: 25px 0;
   font-size: 1.2em;
+}
+.wrapper {
+  margin: 80px auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+button {
+  display: inline-block;
+  background-color: #000000;
+  border-radius: 15px;
+  border: 4px double #279ca6;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 0.8px;
+  width: 15rem;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+}
+button:hover {
+  background-color: #279ca6;
+}
+.active {
+  text-align: center;
 }

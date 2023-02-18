@@ -135,3 +135,24 @@ p {
   color: rgba(255, 255, 255, 0.864);
   text-shadow: 0px 0px 6px rgba(1, 1, 255, 0.764);
 }
+h4 {
+  font-family: "poppins", sans-serif;
+  font-weight: 650;
+  padding: 2%;
+  text-align: auto;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.864);
+  text-shadow: 0px 0px 6px rgba(1, 1, 255, 0.764);
+}
+.cv {
+  width: 106vw;
+  height: 138vh;
+  max-width: 750px;
+  max-height: 966px;
+}
+.linkedin {
+  width: 106vw;
+  height: 138vh;
+  max-width: 750px;
+  max-height: 966px;
+}

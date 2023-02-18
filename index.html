@@ -9,71 +9,27 @@
     <title>Mon site personnel</title>
   </head>
   <body>
-    <header>
-      
-    </header>
-      <h1>Accueil</h1>
-   
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          fugit, maiores in, quod culpa harum quo esse itaque assumenda
-          reprehenderit voluptas iste quidem distinctio, earum eligendi laborum!
-          Atque sit repudiandae necessitatibus harum numquam voluptas unde nihil
-          vero rerum iusto exercitationem quasi dolorum provident inventore
-          consequuntur vel magnam alias, amet <br />
-        </p>
-        <h2>Ma Bio</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          repellat quam atque est reiciendis quisquam ratione assumenda unde
-          non. Recusandae ratione vitae, aliquam iusto amet voluptatum beatae
-          accusantium deleniti inventore ea? Corrupti architecto, corporis
-          exercitationem in possimus vel tenetur. Doloribus architecto porro
-          optio obcaecati. Saepe, sunt voluptatibus necessitatibus aliquam
-          consequuntur sequi culpa corporis deleniti libero reiciendis
-          accusantium dicta quisquam, eos voluptatum. Cupiditate deleniti
-          laudantium magnam quas incidunt, eius doloribus aspernatur nostrum
-          voluptatum fugiat maiores quam omnis officia quibusdam, dolores
-          blanditiis minima inventore commodi enim iusto, nulla alias at hic.
-          Molestias veritatis eveniet, animi excepturi, beatae doloribus ad
-          ipsum, eum unde consectetur aspernatur. Labore itaque modi ab nostrum
-          amet, magnam asperiores id ducimus voluptas, eligendi officia
-          exercitationem deserunt eius. Voluptatem eligendi esse minima
-          explicabo laudantium eaque saepe, cumque molestiae, officia ducimus
-          quis unde impedit expedita. Voluptas eveniet neque at illo natus,
-          placeat error voluptatem aperiam maiores culpa itaque cupiditate
-          minima nobis doloribus sunt aut totam quo fugiat enim incidunt. Nemo
-          itaque, consequatur saepe molestias rerum suscipit consequuntur modi
-          eveniet doloremque, est sunt voluptates ratione vel porro repudiandae
-          perspiciatis, accusantium recusandae. Recusandae facere, ratione
-          impedit necessitatibus pariatur ducimus nostrum debitis, voluptate
-          deserunt minima ipsum doloremque et nam voluptates labore fugiat
-          numquam deleniti provident, facilis odio dolore. Suscipit nam, alias
-          ad reiciendis, eius, soluta ipsam doloremque odit eaque atque cumque?
-          Sed facilis nihil, recusandae rerum deleniti ex consequuntur sapiente
-          placeat aliquam non omnis voluptatibus voluptas voluptatum magnam
-          aspernatur assumenda fugit optio, libero porro, soluta repellat. At
-          dignissimos sunt nobis. Qui excepturi consequatur doloribus error amet
-          blanditiis? Delectus minus, reprehenderit minima odio quo sint
-          voluptas obcaecati quibusdam expedita, itaque aliquam sequi voluptatum
-          accusamus voluptatem laudantium repellat, commodi et nesciunt
-          aspernatur. Nostrum magni iste repudiandae consequuntur facilis
-          asperiores vero totam dolor qui explicabo minima non, repellendus nemo
-          dolores ut quibusdam minus laboriosam nam velit magnam dolorem
-          excepturi optio sed illo? Delectus officia reiciendis eveniet
-          possimus, aperiam commodi tenetur quam corporis impedit, officiis
-          repudiandae maiores sit iusto quae blanditiis laudantium? Nam, natus?
-          Ipsa modi cumque ex cum fuga, iste praesentium laborum molestias dolor
-          quia, accusantium autem libero totam, a accusamus. Natus ducimus iste
-          autem dolor, porro et quos iusto obcaecati quidem corporis optio
-          aspernatur quae dolores dolorum libero eum amet praesentium sunt eaque
-          fugiat hic magnam voluptates error ipsam. Quos velit ipsam cumque iure
-          et rerum nam beatae, minima soluta delectus aspernatur esse illum
-          reiciendis dignissimos recusandae? Numquam eius consectetur nulla unde
-          iure vitae sit architecto!
-        </p>
+    <nav class="navbar">
+      <a href="#" class="logo">A CHANGER</a>
+      <div class="nav-links">
+        <ul>
+          <li class="active"><a href="#">Qui suis-je</a></li>
+          <li><a href="#">Mon C.V</a></li>
+          <li><a href="#">Me contacter</a></li>
+          <li><a href="#">Amuse Toi</a></li>
+          <li><a href="#">Mais insspirations</a></li>
+        </ul>
       </div>
-    </div>
+      <img src="./Asset/IMG/menu.png" alt="Bouton Menu" class="menu-bt" />
+    </nav>
+    <header></header>
   </body>
+  <script>
+    const menu = document.querySelector(".menu-bt");
+    const navlinks = document.querySelector(".nav-links");
+
+    menu.addEventListener("click", () => {
+      navlinks.classList.toggle("mobile-menu");
+    });
+  </script>
 </html>

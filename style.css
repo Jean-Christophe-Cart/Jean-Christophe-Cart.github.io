@@ -32,7 +32,7 @@ header {
 .navbar .nav-links ul {
   display: flex;
   align-items: center;
-  margin: 5% 0 0 15%;
+  padding-left: 8%;
 }
 
 .navbar .nav-links ul li {
